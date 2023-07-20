@@ -1,0 +1,13 @@
+* {
+    font-size: 30px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul#campo {
+    width: 30%;
+    padding:20px;
+    border: 1px solid black;
+}
