@@ -4,10 +4,14 @@ console.log(lista)
 let i = 0
 
 $('#btn').on('click', function() {
-
     let tarefa = $('#task').val()
-    lista.push(tarefa)
-    listarDados()
+
+    if (tarefa == '') {
+        alert('Escreva uma tarefa')
+    } else {
+        lista.push(tarefa)
+        listarDados()
+    }
 })
 
 function listarDados() {
